@@ -1,0 +1,22 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 30px; /*tamaño*/
+}
+/* como hacer que el contenedor padre este arriba del hijo  el truco es poner al hijo un z-index: -1; y al padre no */
+.contenedor{
+    height: 300px; /*estamos dando una haltura a la caja  */
+    width: 300px; /*estamos dando un  ancho a la caja */
+    background: yellowgreen;
+    margin: 50px; /*estamos dandos un espacio a los extremos superiores de la caja osea por afuera de la caja */
+    position: relative;
+}
+.hijo{
+    height: 140px;
+    width: 140px;
+    background: blue;
+    position: relative; /*estamos dando posicion relativo para utilizar sus propiedades como top y left*/
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+}

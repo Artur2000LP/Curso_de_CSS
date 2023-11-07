@@ -1,0 +1,36 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 30px; /*tamaño*/
+}
+
+h1{
+    background-color: #3aa; /* color de fondo */
+    display: inline-block; /*para que se comporte como un elemento en linea y tambien aquiera propiedades del bloke */
+    /*uso de padding:*/
+    padding-left: 20px; /* espacio de borde del contenedor al texto de la isquierda  */
+    padding-right: 30px; /* //  de la derecha  */
+    padding-top: 40px; /* //  de arriba o extremo superior */
+    padding-bottom: 50px; /* //  de abajo o  extreomo inferior  */
+    /* padding: top  right bottom left;  imagina que es como horario*/
+    /*padding: 50px;*/ /* surjan property una media para todos los lados  */
+    /* padding: 40px 30px 50px 20px; */
+    padding: 40px 70px;
+    box-sizing: border-box; /* hace que los elementos mantengan su tamaño y se usa precisamente para que el box model no se rompa. */
+    text-align: center; /* centrando el texto al centro de los costados */
+    /*usi de margin: es el espacio que hay entro las cajas */
+    margin: 10px; /* estoy dando un espacio de 10px por afuera del contenedor con el resto de las cajas */
+    margin: 10px 20px; /*arriba, abajo 10px a los costados 20px */
+    /*uso de border */
+    border-radius: 20px; /*se esta redondeando las esquinas del contenedor */
+    /* border: #tamaño_borde   estilo   color;  en el estilo puede ser solid, dashed, double, groove,ridge,inset,outset, ... */ 
+    /* border: 4px ridge blue; */
+    /*sonbras... */
+    /* box-shadow: #sombra_eje_x sombra_eje_y  #tamaño_desenfocre_de_sombra  #tamaño_borde  &color  ;  dar sombra a la caja  */
+    box-shadow: 20px 10px 15px 3px #000;
+    /* text-shadow: px px px  color ; es lo mismo pero con el texto con la diferencia de que no existe el #tamaño_borde en penultimo valor */
+    text-shadow: 2px 2px 7px #fff ;
+    /*rotacion de cajas*/
+    transform: rotate(45deg); /*estamos rotando 45 grados*/
+    transform: rotate(-45deg); /*estamos rotando 45 grados pero para otro lado */
+}

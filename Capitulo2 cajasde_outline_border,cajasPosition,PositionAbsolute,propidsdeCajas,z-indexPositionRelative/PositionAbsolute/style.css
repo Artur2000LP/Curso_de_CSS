@@ -1,0 +1,68 @@
+* {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+    /*ancho del texto */
+    font-size: 30px;
+    /*tamaño*/
+}
+
+.contenedor {
+    /*position: static;*//*para que la posision sea statico del contenedor */
+    /*los contenedores hijos position: static 
+    estan tomando como punto de referencia al viuport o body no al contenedor
+     para lo cual se utilizaria position: relative;*/
+    position: relative; /* con esto los contenedores hijos ya estaran tomando 
+    como punto de refenrencia al contenedor y se moveran dentro del contenedor */
+    border: 4px solid red;
+    /*estamos dando un borde de 4px */
+    height: 450px;
+    /* tamaño de caja a b...*/
+    width: 450px;
+    margin: 50px auto;
+    /*lo que estamos asiendo es 50px arriba abajo y auto derecha isquierda centrado respecto a la ventana */
+}
+
+div {
+    display: block;
+    background: yellow;
+    position: absolute;
+    /*se ajusta el tamaño de la caja al contenido del texto */
+}
+
+div div {
+    
+    position: absolute;/*aqui las cajas se sobreponen dentro del contenedor */
+    background: rgb(114, 189, 1);
+    height: 90px;
+    width: 90px;
+    
+    display: flex; /* Utilizamos flexbox para centrar tanto vertical como horizontalmente */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    
+    
+      
+}
+
+.caja1 {
+    left: 0; /*se queda en su misma pocision*/
+}
+.caja2 {
+    right: 0; /*se ba a la derecha */
+}
+.caja3 {
+    bottom: 0; /*baja para abajo */
+    right: 0; /* y de va a la derecha*/
+}
+.caja4 {
+    bottom: 0; /*baja para abajo en la misma direccion*/
+}
+/*para que una caja este sentrado en el medio del contenedor 
+utilizamos esta tactica, como a todos le damos el valor 0 no sabe a donde ir y con el magin auto aumentando se centra  */
+.caja5{
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: auto;
+}

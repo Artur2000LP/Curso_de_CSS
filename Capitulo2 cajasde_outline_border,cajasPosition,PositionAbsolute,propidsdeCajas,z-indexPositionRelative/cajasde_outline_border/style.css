@@ -1,0 +1,42 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 30px; /*tamaño*/
+}
+.caja1, .caja2{
+    width: 200px;/*ancho de la caja */
+    height: 200px; /*alto de la caja */
+    margin: auto; /*con el margin: que son el dominio de afuera de las cajas lo estamos centrando las cajas */
+}
+div{
+    width: 200px;/*ancho de la caja */
+    height: 200px; /*alto de la caja */
+    /* margin: auto; */
+    background-color: aqua;
+    display: inline-block;
+    /* box-sizing: content-box;*/ /*este biene por defecto lo que hace es aumentar a la caja un borde con 10px mas la caja ya no mide los 200px si no mas los 10px que seria 210px  */
+    box-sizing: border-box; /*aqui lo que esmos hasiendo es que el borde azul lo estamos poniendo dentro de la caja y la caja con el borde mas ocupa el mismo tamaño que es 200px */
+}
+.caja1{
+    background-color: red;
+    /* border: 10px solid blue; */
+    /*outline: 10px solid blue;*/ /* outline estamos seleccionando la caja y la caja sigemidiendo 200px*/
+
+
+}
+.caja2{
+ background-color: yellow;
+ border: 10px solid blue; /*cuando lo estamos sacando el borde la caja de color amarrillo ya no seria 200px si no 200px - 10px por el borde = 190px*/
+ outline: 10px solid rgb(0, 255, 89);
+ position: relative; /*pasission relatibo para cada lado*/
+ /*diferencia entre el border y outline 
+  el dorder ocupa el valor real en al contenedor 
+  mientras que el outline no altera nada solo selecciona 
+ */
+}
+/* seleccionamos las cajas con outline: */
+.caja4{/*.caja1,.caja3,.caja5,...*/
+    outline: 10px solid red;
+    position: relative;
+
+}

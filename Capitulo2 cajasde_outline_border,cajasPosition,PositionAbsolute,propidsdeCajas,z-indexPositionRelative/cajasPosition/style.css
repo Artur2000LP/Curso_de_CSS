@@ -1,0 +1,39 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 30px; /*tamaño*/
+}
+div{
+    width: 120px;
+    height: 120px;
+    display: block;
+    /* background: yellow; */
+}
+
+.caja1{
+    background-color: orange;
+    top:20px; /*mientras que a qui no funciona porque no acquiere la 4 propiedades, position: relative; */
+}
+.caja2{
+    /*el truco de position: relative; es empujar la caja de donde a cuantos pixeles*/
+    background-color: green;
+    position: relative; /*le estamos disiendo que acquiera 4 propiedades nuebas top: ; left: ; right: ;  bottom: ; con esto: position: relative; lo estamos poniendo el contenedor el relativo */
+    top:20px; /*le digo que se mueba 20 px hacia abajo */
+    /*y este se mueve contando del extremo inferior de la caja 1 hacia abajo por el DOM la lo tiene reserbado un espasio para la caja1*/
+    left: 40px; /*le empujamos de isquierda unos 40pxls su ponto de empuje de esa caja es el origen del mismo */
+    /*el top y left son los prinsipales en position: relative; el right y buttom sirvien si es que falta los dos primeros */
+    z-index: 60; /*lo estamos poniendo delante de caja3 y asiendo cajo la recomendacion del minimo de 50 px */
+}
+.caja3{
+    background-color: lightblue;
+    /*que es z-index: es para posisionar delante del contenedor o atras del contenedor y se recomienta de ir de 50 en 50  */
+    /*ejemplo para lo cual utilizarelos position: relative; para ambas contenedores caja 2 y caja3 */
+    position: relative;
+    z-index: 10; /* lo estamos poniendo delante */
+}
+.caja4{
+    background-color: yellow;
+}
+.caja5{
+    background-color: aqua;
+}
