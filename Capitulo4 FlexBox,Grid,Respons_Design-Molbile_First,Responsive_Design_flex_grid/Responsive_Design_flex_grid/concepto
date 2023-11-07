@@ -1,0 +1,19 @@
+__ Responsive Desing (Completo) ___
+
+    Estructuras flexibles (contenedores Flexibles, Imagenes flexibles)
+    Media Queries
+
+    @Medi se usa en consultas de medios para aplicar diferentes estilos para diferentes tipos / dispositivos de medios
+
+    _ ancho y alto de la ventana grafica 
+    - ancho y alto del dispositivos
+    - orientacion (¿ la tableta / telefono esta en modo Horizontal o Vertical)
+
+        all - apto para todos los dispositivos 
+        print - Destinado a material impreso y visualizacion de documentos en una pantalla en el modo de vista previa de impresion
+        screen - Destinado prinsipal mente a las pantallas 
+        speech - Destinado a sintetizadores de voz.
+
+    Operadores AND | OR
+    orientation: landscape y portrait
+    

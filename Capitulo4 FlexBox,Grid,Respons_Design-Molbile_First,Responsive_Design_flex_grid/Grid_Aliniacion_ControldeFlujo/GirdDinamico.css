@@ -1,0 +1,57 @@
+body {
+	background: radial-gradient(circle, #fff, #bbb);
+	padding: 15px;
+}
+
+.grid-container {
+	display: grid;
+	/*damos los limites de los contenedosres ejemplo minmax(100px, 200px)*/
+	/*en ves de 3 lo provamos con auto-fill o auto-fit*/
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr;
+	border: 3px solid #000;
+	background: #333;
+	grid-auto-flow: dense;
+	/*qui lo estamos probando la teoria */
+	/* justify-items: center; 
+	align-items: center; */
+	/*tambien probaremos sus propiedades de flex solo finciona lara el contenedor no para los items*/
+	/*justify-content: space-evenly; *//*lo centramos horizontal mente mente*/
+	/*align-content: space-evenly; *//*lo sentramos vertical mente*/
+	height: 600px;
+	/*tambien podemos jugar con los items*/
+	align-items: center;
+	justify-items: center;
+	
+}
+
+.grid-item {
+	border: 2px solid #000;
+	background: #999;
+	font-size: 30px;
+	padding: 40px;
+
+}
+.grid-item:first-child{
+	/* align-self: start;
+	justify-self: start ; */
+	/*aun unmetodo abrebiado  ejemplo place-self: start end ; si son iguales uno solo*/
+	place-self: start;
+}
+.grid-item:nth-child(5) { /*seleccionamos al contenedor 5*/
+	justify-self: end;
+}
+.grid-item:nth-child(6) { /*seleccionamos al contenedor 6*/
+ /* align-self: start; */
+ 	justify-self: start;
+}
+.grid-item:nth-child(4) { /*seleccionamos al contenedor 4*/
+	align-self: end;
+	/* order: 2; */
+}
+.grid-item:nth-child(7) { /*seleccionamos al contenedor 7*/
+ 
+	align-self: start;
+}

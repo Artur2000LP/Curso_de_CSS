@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header, .main, .aside, .footer {
+    padding: 20px;
+}
+
+.header{
+    background: lightblue;
+    flex-basis: 60px;
+}
+.main {
+    background: lawngreen;
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+.aside{
+    background: darkslateblue;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.footer {
+    background: #555;
+    flex-grow: 1;
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    /*esta es una forma de trabajar don diisplay flex */
+    /* .content{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .header {
+        flex-basis: 100%;
+        max-height: 60px;
+    }
+    .main, .aside {
+       height: 580px;
+    }
+    .main {
+        flex-grow: 4;
+    }
+    .aside {
+        flex-grow: 1;
+    }
+    .footer {
+        flex-basis: 100%;
+        padding: 20px;
+    } */
+    /*y esta el a otra forma de trabajar con display grid*/
+    .content{
+        display: grid;
+        grid-template-rows: 80px repeat(4, 1fr) 80px ;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .header {
+        grid-column: 1 / span 3 ;
+    }
+    .main {
+        grid-row: 2 / 6;
+        grid-column: 1 / span 2;
+       
+    }
+    .aside {
+        grid-row: 2 / 6;
+    }
+    .footer {
+        grid-row: 6 / 7;
+        grid-column: 1 / span 3;
+    }
+}
+
+

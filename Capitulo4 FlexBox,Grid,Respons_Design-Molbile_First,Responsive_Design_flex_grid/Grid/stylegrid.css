@@ -1,0 +1,64 @@
+body {
+	background: radial-gradient(circle, #fff, #bbb);
+	padding: 20px;
+}
+
+.grid-container {
+	/* display: grid; */
+	/*grid-gap: 0;*/ /* Sin espaciado entre las celdas */
+	/* Definimos el tamaño y la disposición de las columnas */
+	/*1fr; estamos dando medida relativa para que se rrellene*/
+	/*si vemos 150px 150px 150px mas de uno podemos usar la funcion repeat(cuantas veses, unidad)*/
+	/*grid-template-columns: repeat(3, 150px) 1fr;
+	/* Definimos el tamaño y la disposición de las filas */
+	/*grid-template-rows: 150px 150px 150px; /* aqui tambien podemos usar repeat() */
+	
+	
+	border: 3px solid #000;
+	/*ceparacion de celdas */
+	/*grid-gap: 10px; *//* Espacio de 10 píxeles entre celdas */
+	/*grid-column-gap: 10px;*/ /*se separan las columnas */
+  /*grid-row-gap: 10px; *//*se separan las filas */
+
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 150px) 100px 100px;
+	grid-template-rows: repeat(3,150px);
+	grid-template-rows:
+			[f-line] /* le damos nombre a las lineas */
+			150px
+			[s-line]
+			150px
+			[t-line]
+			150px
+			[u-line];
+			
+	/*GRID IMPLICITO con sus propiedades */
+	grid-auto-rows: 100px; /*estamos dando a los conponentes sobrantes en fila que ocupen 151px osea para abajo  */
+	/*grid-auto-columns: 150px;*/ /*estamos dando a los conponentes sobrantes en conlumna que ocupen 151px osea para derecha  */
+	border: 3px solid #000;
+	background: #333;
+	grid-auto-flow: row; /*los componentes sobrantes lo estamos posicionando para que se pongan ya seas para abajo fila row o derecha columna column*/
+	/* grid-auto-flow: column; */
+	/* para rellenar los espacios vacios se usa  */
+	grid-auto-flow: dense;
+}
+
+.grid-item {
+	border: 2px solid #000;
+	background: #716c6c;
+
+}
+.grid-item:first-child {
+	background: #999;
+	grid-column: 1 / span 2; /*estamos diciendo arranca de lina 1 y cupa 3 espacion para columna  */
+  grid-row: 1 / span 2; /*lo mismo pero esto es para fila */
+
+}
+.grid-item:nth-child(5){
+	background: #949;
+	grid-column: 2 / span 6;
+	/* grid-row: s-line / 3;  */ /*llamamos a las mineas por su nombre que le dimos */
+	
+}

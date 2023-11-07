@@ -1,0 +1,34 @@
+.... ALINEACION Y CONTROL DE FLUJOS ......
+direccion con flex:
+
+- la alineacion es el centro de cada celda y no alineacion total del flex container 
+- cada celda seria un "flex container"
+
+(Propiedades del Grid-container) 
+justify-item (horizontal mente ) : stretch(default) - start -center - end
+align-item (vertical mente ) : stretch(default) - start -center - end
+
+stretch(default) - start -center - end
+place-item: align-item justify-item
+
+____ Alineacion de filas y columnas ___
+    - justify-content (horizontalmente)
+    - align-content (vertical mente )
+    
+    -stretch (default) - start -center - end
+    mas de las flex:
+            *space-arround
+            *space-between
+            *space-evenly
+
+___ APLICADO AL GRID ITEM   ___
+- align-self
+- justify-self
+- place-self: align-self justify-self
+
+-stretch (default) - start -center - end
+
+- order (igual de el flex )
+
+
+

@@ -1,0 +1,25 @@
+flexbox
+    Contenedor y contenido
+    felx Container  Flex Item
+    cross Axis (Cross-Start - Cross-End)
+
+    -- PROPIEDADES---
+    Felx-Direction: row, row-riverse, column, column-reverse,  etc..
+    Flex-Wrap: No-wrap - wrap - wrap-reverse
+    Flex-flow: felx-direction flex-wrap;
+    justify-Content: center, space-arround, space-between, space-evenly(main axis)
+    align-items: flex-start, center, felx-end, stretch, baseline (cross axis)
+    
+    align-content:
+(..............................................)
+(para mas de una linea )
+    -PROPIEDADES DE LOS ITEMS --
+    aling-self (cross Axis)
+    -- Fundamentos de Margin --
+    Contenedor - tamaño de la caja en el eje en el que corre 
+    (Direccion)
+        flex-grow: (espacio asignado + sobrante / grows)(main Axis)
+        flex-shrink: espacio que "sede" (main Axis) 
+        flex-basis: Medicion antesde encogerse (En auto(defect value), agarra el width, y sino tiene mas priorodad )(Main Axis)
+        Flex: flex-grow, flex-shrink, flex-basis (al menos el primer parametro obligatorio )
+        Order: (Como el z index, pero en el eje en el que apunta el main axis)

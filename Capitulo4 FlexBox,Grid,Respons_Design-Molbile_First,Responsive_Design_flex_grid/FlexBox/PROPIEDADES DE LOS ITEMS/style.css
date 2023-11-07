@@ -1,0 +1,48 @@
+.flex-container {
+  display: flex;
+  height: 100vh;
+  /*para demostrar el order: */
+  flex-direction: column; /*de arriba abajo */
+  flex-direction: column-reverse; /*de abajo arriba */
+
+}
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    min-width: 120px;/*un  minimo ancho enves de width: 120px; */
+    text-align: center;
+    /*flex-grow: 1;*/ /*lo que hace es todo el espacio que sobra le damos al contenedor que le emos seleccionado si hay otros contenedores utilizando 
+     esta propiedad de flex-grow: 1; entonces se dibidira el espacio en partes iguales para los demas cajas  */
+    width: 300px;
+    /*lo estamos agrupando felx: flex-grow flex-shrink flex-basis */
+    /*y se debe poner almenos uno obligatorio*/
+    flex: 1;
+ 
+}
+
+.orange {
+    background: orange;
+    /*flex-grow: 2; *//*en estcaso la particion de espacios ya no seran iguales si no a este caja se le dara el doble de espacio*/
+   /* flex-basis: 300px; *//*ese es paresido con width:, pero este tienes mas propiedades y se recomienda este */
+    /*flex-shrink: 1;*/ /*sede un espacio este es por defecto*/
+    /*flex-shrink: 2*/ /*esta caja sedera el doble de espacio*/
+    /*lo abrebiamos los tres */
+    /* felx: flex-grow flex-shrink flex-basis; */
+    flex: 1 0 350px;
+    order: 15; /*este estara debajo de order:20*/
+
+}
+.blue {
+    order: 20; /*le tablos un valor para que los compopnentes se
+    se pocicionen segun a su valor o tamaño */
+    /* con el uso del order se posisionan en el eje x y en el eje y segun el valor que tengan las cajas 
+    si es grande el valor y estas ordenando de abajo arriba se pondra 
+    en el arriba por que este es mayor  */
+}
+.green {
+    background: green;
+    /*flex-grow: 3; *//*la particion pa este contenedor sera el triple osea la caja sera mayor */
+    order: 10; /*este estara debajo de order:15 como ultimo */
+}

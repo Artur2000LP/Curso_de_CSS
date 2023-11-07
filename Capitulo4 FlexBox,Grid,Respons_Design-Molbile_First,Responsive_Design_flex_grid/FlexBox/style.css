@@ -1,0 +1,53 @@
+.flex-container {
+     display: flex;/*para que las cajas sean adaptables y mantienen  las propiedades de las cajas */
+    /*flex-direction: row; *//*este es la propiedad que trae por defecto que los conponentes se comporten en linea */
+    /*flex-direction: column;*/ /*una de sus propiedades de flex 
+    que sirve para que los contenedores se alinen para abajo*/
+    /*flex-direction: row-reverse;*/ /*lo que hace es revertir el orden de derecha a izquierda*/
+   /* flex-direction: column-reverse; *//*lo que hace es ir de abajo para arriba */
+    /* flex-wrap: wrap; */
+    /*flex-wrap: nowrap;*/ /*po defecto no se va para abajo ni arriba */
+        /* flex-direction: column;
+    flex-wrap: wrap; */
+    /*esos dos metodos podemos abrebiar en uno solo utilizando flex-flow*/
+    /* flex-flow: column wrap; */
+
+}
+.flex-container{
+    flex-wrap: wrap;
+    justify-content: space-around; /*esta propiedad lo centra las cajas y le damos al contenedor y no al contenido */
+    justify-content: space-between; /*lo centtra las cajas pero los centros con mas espacio entre cajas tambien le damos al contenedor no al contenido  */
+    justify-content: space-evenly; /*lo centra con el mismo espacio y cuando la pantalla se aserca se oculta tanto derecha e izquierda*/
+    height: 100vh;
+    /*estos trabaja en bloque de lineas */
+    align-items: stretch; /*esta es la propiedad por defecto */
+    align-items: center; /*lo sentramos los componentes vertical mente osea de arriva abajo */
+    align-items: flex-start; /*lo componentes se ponen arriba */
+    align-items: flex-end; /*los componentes se ponen abajo */
+    /*estos trabajan en contenedores y tiene las minmas propiedades*/
+    /* align-content: flex-start; */
+     /*pa que los componentes suban de abajo para arriba se utilizaria el baseline*/
+    /*porque el flex-end no serviria  en este caso se usa mas baseline  */
+    /* flex-wrap: wrap-reverse;*/ /*a los componentes lo tira para arriba */
+   /* align-content: baseline;*/ /*para que los componentes se queden abajo */
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    min-width: 120px;/*un  minimo ancho enves de width: 120px; */
+    text-align: center;
+    /*flex: 1;*/ /*sirve para posisionar imagennes de forma automatica */
+
+}
+
+.orange {
+    background: orange;
+}
+.green {
+    background: green;
+    /*tambien hay propiedades propio de del hijo osea del contenido cuando el padre tiene display: flex*/
+    align-self: center; /* flex-start  flex-end  etc..*/
+}

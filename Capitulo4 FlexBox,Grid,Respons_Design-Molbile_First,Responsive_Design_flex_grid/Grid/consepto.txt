@@ -1,0 +1,51 @@
+ ________ Grid _________
+ ...... CONSEPTOS BASICOS .......
+ _ grid container
+ _ grid item 
+ _ grid cell 
+ _ grid Tracks (Column y Row)
+ _ grid Line (column Line y Row Line)
+ejemplo
+<div> /*este seria grid-container*/
+    <p> /*en ese caso este seria grid item*/
+        <b></b> /*y esta ya no seria grid item si 
+        este seria un hijo de un bloque si b es un display: block*/
+    </p>
+    <img></img>
+</div>
+los grid item son los hijos directos de grid container;
+ ......... Propiedades .........
+ grid-template-rows (Grid-conteiner )
+ grid-template-columns (grid-container)
+
+ grid-row-gap (grid-container)
+ grid-column-gap (grid-container)
+ grid-gap: row column (grid-container)
+
+ grid-row-start (grid-item)
+ grid-row-end (grid-item)
+ grid-column-start (grid-item)
+ grid-column-end (grid-item)
+ grid-row (grid-item)
+ grid-column (grid-item)
+
+ unidades "auto" y fr repeat(cantidad,tamaño/s)
+
+
+ ----------- GRID IMPLICITO Y EXPLICITO
+    3 nuevas propiedades del grid IMPLICITO
+     grid-auto-rows (igual que el template)
+     grid-auto-columns (igual que el teplate )
+     grid-auto-flow: row(default), column, Dense
+
+-----------GRID DINAMICO ..........
+    minmax() /*lo que hace es dar un minimo y un maxino para que el grid se estire */
+    mincontent
+    maxcontent
+
+    cantidad
+   /*se ajuste o siga generando filas o culumnas */
+    auto-fill /*genera la cantidad de columnas o filas cuando se estira el contenedor */
+    auto-fit /*los conponentes se auto ajustan es como poner a cada uno un fr, los esta escalando */
+
+

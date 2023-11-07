@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nav__responsive-ul { /*eliminamos el menu responcivo */
+	display: none;
+}
+
+.nav {
+	background-color: #69c;
+}
+.nav__ul {
+	padding: 10px;
+}
+.nav__li {
+	display: inline-block;
+	/*lo aliniamos con sun propiedades del bloke */
+	padding: 12px;
+	/* por dentro del contendor le damos un espacio*/
+	margin: 2px;
+	color: #fff;
+}
+
+.nav__li:hover {
+	background-color: #94aad8c9;
+	color: black;
+	border-radius: 4px;
+
+}
+.nav__li:hover > a{
+	color: black;
+}
+.nav__li a {
+	color: #fff;
+	text-decoration: none;
+	/* la linea del link del subrayado lo estmos quitando */
+}
+
+.nav__li i {
+	/*estmos selecionando a los iconos */
+	/*un espacio para todo el contenido del icono*/
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.nav__reponsive-button-container {
+	position: absolute;
+	width: 100%;
+	font-size: 25px;
+	background-color: #69c;
+	margin-top: -64px;
+	z-index: 100;
+}
+.nav__reponsive-button {
+	padding: 6px 20px;
+	text-align: right;
+}
+
+/*para que sea adaptable o responsive se usa lo siguiente */
+@media only screen and (max-width: 550px){
+	.nav__ul{ /*al menu lo hacemos desapareser con none*/
+		display: none;
+	}
+
+	.nav{ 
+		height: 37px;
+		width: 100%;
+		
+		
+	}
+	.nav__responsive-ul {
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin-top: 37px;
+		padding-top: 27px;
+		height: 37px; 
+		
+	}
+	
+	.nav__li-container{
+		position: relative;
+		top:-1000px;	
+		/* height: calc(100vh -64px); */
+		transition: all 1s;
+		z-index: 1;
+		width: 75%;
+		padding-top: 27px;
+		height: 91vh;
+		background: #9bf;
+		overflow: hidden; /*pa que los componentes esten dentro del contenedor */
+	}
+
+	.nav__responsive-li{
+		width: 100%;
+		padding: 10px 20px;
+	}
+	.nav__responsive-li i{
+		box-sizing: border-box;
+		text-align: center;
+		margin-right: 5px;
+		width: 30px;
+		color: #016;
+	}
+	.nav__responsive-li a{
+		color: #016;
+		text-decoration: none;
+	}
+	.nav__responsive-ul:hover > .nav__li-container {
+		top: -27px;
+	}
+	.nav__responsive-li:hover{
+		background-color:  #7bf;
+	}
+}

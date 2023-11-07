@@ -1,0 +1,13 @@
+AREAS EN GRID
+_ AL GRID CONTAINER _
+grid-template-grid: "nombre/s areas/s";
+
+_ AL GRID ITEM_ 
+grid-area: "monbre del area ";
+
+__ NOMBRE A LA LINEA__
+se puede reemplazar en: grid-row | grid-colum
+
+_ SHORTHAND_
+_ gird-template: row / column (grid-container)
+-grid-template: area unidad
