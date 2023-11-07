@@ -1,0 +1,15 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 40px; /*tamaño*/
+}
+b{
+    background: yellow;
+    margin: 20px;
+    border: 10px solid red;
+    /*display: inline; *//*los inline su contenedor se ajusta al texto pero no adquiere las propiedades de ina caja como width: y height: */
+    display: block; /* ocupa todo un bloke y este  adquiere las propiedades de una caja */
+    display: inline-block; /* se pone en line con todas las propiedades de una caja */
+    width: 150px;
+    height: 150px;
+}

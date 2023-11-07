@@ -1,0 +1,38 @@
+3) DISPLAY:
+    BLOCK
+    INLINE
+    INLINE-BLOCK
+    TABLE
+    INLINE-TABLE
+    LIST-ITEM
+    TABLE-CELL
+    TABLE-ROM
+    TABLE-COLUMN
+
+    FLEX
+    GRID
+
+    INLINE-FLEX
+    INLINE-GIRD
+
+
+4) OVERFLOW: (Y,X) AUTO HIDDEN, SCROLL
+
+5) FLOAT: (Left, right, None, Inherit)
+    float: right; /*el float lo flota los contenedores para que apresca derecha */
+    float: left; /* estamos flotando a la izquierda*/
+ 
+6) PSEUDO-ELEMENTOS // en un elemento que no es un elemento, los pseudo-elementos no forman parte del DOM pero
+    si podemos ver cambios visuales, sola mente funcionan el elementos de bloque block (no funciona en INLINE)
+    ::first-line | BLOCK // se refiere a la prime linea de la pantablla
+    ::first-latter | BLOCK
+    ::placeholder
+    ::selection  una ves que subrayas el texto o seleccionas un texto para que puedes dar otros colores o modificar 
+   
+    ::after  | HIJOS - CONTENT (NECESARIO) - INLINE /* el texto no se puede seleccionar estos no forman parte del DOM este el el antes
+    ::before | HIJOS - CONTENT (NESESARIO) - INLINE /* y este es el despues 
+7)colores :  
+    pueden buscar en intenet: con este nombre por ejemplo 'html picker color code'
+    rgb(rojo, berder, Azul) / este funcion lo que hace es mesclar esos tres colores por defecto para sacar cuebos colores 
+    #fff // esto se usa como una abrebiacion del rgb(); 
+    donde el primer f pertenese al rojo, el segunto al verder, y el tersero al Azul, y como tanbien se puede agregar un f mas para una opacidad

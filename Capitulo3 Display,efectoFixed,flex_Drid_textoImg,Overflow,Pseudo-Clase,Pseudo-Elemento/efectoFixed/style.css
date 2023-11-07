@@ -1,0 +1,11 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 40px; /*tamaño*/
+}
+.caja-fixed{
+    background: rgb(219, 70, 70); 
+   /* position: fixed;*/ /*el fixed se queda figado en la pantalla y ademas adquiere propiedades como el top, left, etc */
+    position: sticky; /*es la mescla entre relative y fixed, es decier desde un cierto lugar se queda fijo hacia avajo mientras que en fixed se queda fijo desde el inicio */
+    top: 20px;
+}

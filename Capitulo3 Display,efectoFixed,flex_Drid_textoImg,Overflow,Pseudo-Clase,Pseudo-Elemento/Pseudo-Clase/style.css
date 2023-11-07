@@ -1,0 +1,49 @@
+*{
+    font-size: 23px;
+}
+
+.caja{
+    width: 300px; /*estamos poniendo el ancho */
+    height: 300px; /*alton de la caja*/
+    background: rgb(255, 38, 0); /*un color */
+    transition: all 1s;
+    margin: 30px auto;
+    margin-bottom: 5px;
+   
+}
+.caja:active{ /*este propiedad : active nos sirve cuando apretemos que pase algo, esto mayor mente se aplia para cajas */
+ background: blue;
+  width: 500px;
+}
+form{
+    text-align: center;
+
+}
+.input{ 
+    /*estamos  dando un espasio por afuera de la caja */
+    padding: 10px; /*y este por adentro de caja*/
+    margin: 5px;
+    transition: all 1s;
+    text-align: center;
+    background: #444;
+    color: #fff;
+    
+    
+}
+.input:focus{ /*focus mayor mente se utiliza para los inputs cuandop el contenedor este seleccionado se ejecuta una ves que no no esyte seleccionado no se ejecuta  */
+ background: #0f1e50;
+ color: #fff
+}
+/*lang*/
+.cajaLang{
+ margin: 20px;
+ text-align: center;
+}
+.cajaLang b:lang(en){ /*estamos seleccionando el texto en español "es"*/
+    background: red;
+    padding: 20px;
+}
+.cajaLang b:lang(es){ /*estamos seleccionando el texto en español "en"*/
+    background: #0e41ea;
+    padding: 20px;
+}

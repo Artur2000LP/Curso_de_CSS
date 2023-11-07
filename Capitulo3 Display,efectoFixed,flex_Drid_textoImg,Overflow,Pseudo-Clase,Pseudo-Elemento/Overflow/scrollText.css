@@ -1,0 +1,17 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 40px; /*tamaño*/
+}
+div{
+    margin: auto; /*estamos centrando en contenedor horizontalmente */
+    margin-top: 50px; /* estamos bajando el contenedor hacia abajo unos 50px*/
+    width: 350px;
+    height: 250px;
+    border: 4px solid red;
+    background: grey;
+    overflow: auto; /*lo que hace es que si en contenido sobrepasa pone un scroll*/
+    overflow: scroll; /*lo pone un croll de manera obligatoria */
+   /* overflow-y: hidden;*/ /*lo hace desapareser el scroll del eje y */
+    
+}  

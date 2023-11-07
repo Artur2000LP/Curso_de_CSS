@@ -1,0 +1,45 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 20px; /*tamaño*/
+    padding: 0;
+    margin: 0;
+}
+.texto {
+    padding: 20px;
+
+}
+.texto::first-letter{ /* selecciona en primer caracter del texto */
+    color: blue;
+    font-size: 40px;
+}
+.texto::first-line{ /* selecciona la primera linea de la pantalla */
+    color:aqua; 
+}
+
+form{
+    margin: 100px auto;
+    display: block;
+    background: #666;
+    padding: 60px;
+    width: 50%;
+    text-align: center;
+}
+input, b {
+    padding: 6px; /*lo estamos dando un espacio en interior de la caja */
+    width: 100%; /*que ocupe todo el contenido de la caja*/
+    font-size: 25px;
+}
+
+input::placeholder{ /*seleccionamos al placeholder para cambir estilos */
+    color: blue;
+    font-size: 20px;
+}
+b::before { /*antes del texto bamos insertar un texto que no se selecciona */
+    content: "me suscribi"; /*este caracter no forma parte del Dom */
+    color: #fff;
+    
+}
+b::after { /*este es el despues del texto */
+    content: "todo tendencias";
+}

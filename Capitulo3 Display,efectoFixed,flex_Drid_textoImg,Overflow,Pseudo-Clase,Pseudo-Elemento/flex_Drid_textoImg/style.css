@@ -1,0 +1,24 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100; /*ancho del texto */
+    font-size: 20px; /*tamaño*/
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+ background-color: aqua;
+ margin: auto; /*estamos centrando en contenedor horizontalmente */
+ margin-top: 50px; /* estamos bajando el contenedor hacia abajo unos 50px*/
+ border: 4px solid red;
+ background: grey;
+ overflow: hidden; /*para que el imagen este dentro del contenedor */
+ width: 50%;
+ padding: 10px;
+}
+
+.contenedor img{
+ float: right; /*al imagen lo estamos flotando a la derecha*/
+ float: left; /*imagen lo estmos flotando a la izquierda*/
+ width: 450px;
+ margin: 8px 15px 10px 10px;
+}
