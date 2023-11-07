@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tuenti</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="boton.css">
+        <link rel="stylesheet" href="estilos.css">
+    
+        <style>
+            
+            body{
+                font-family: Arial;
+                background-color:rgb(0, 119, 255);
+                font-size: 20px;
+                box-sizing: border-box;
+            }
+            form{
+                background-color: white;
+                border-radius: 3px;
+                /*--color: #999;*/
+                font-size: 0.8em;
+                padding: 30px;
+                
+                margin: 0 auto;
+                width: 450px;
+		    }
+            input, textarea{
+                border: 0;
+                outline: none;
+                /*width: 280px;*/
+		    }
+
+            .field{
+                border: solid 1px #ccc;
+                padding: 10px;
+
+                
+            }
+
+            .field:focus{
+                border-color:rgb(0, 174, 255);
+            }
+
+            .center-content{
+                text-align: center;
+            }
+            
+        </style>
+        
+
+    </head>
+    <body >
+        <form action="">
+
+            <h1>Tuenti</h1>
+            <p><b>Únetre a Tuenti</b> todos los campos son obligatorios</p>
+            
+            Nombre:
+                     
+            <input type="text" class="field" value="nombre" required>
+            <input type="text" class="field" value="apellido" required> <br/>
+            <br>
+    
+            Email:
+            <input type="email" class="field" required> <br/>
+            <br>
+            
+            
+            <div class="radio">
+                Sexo:
+                <input type="radio" name="sexo" id="varon">
+                <label for="varon">varon</label>
+
+                <input type="radio" name="sexo" id="mujer">
+                <label for="mujer">mujer</label>
+
+            </div>
+            <br>
+
+            Fecha de nacimiento:
+            <input type="date" class="field"  required ><br/>
+            <br>
+
+            Contraseña:
+            <input type="password" class="field"  required ><br/>
+            <br>
+
+            Numero de Móvil:
+            <input type="number" class="field"  required ><br/>
+            <br>
+
+            <div class="checkbok" aria-required="true">
+                <input type="checkbox" name="checkbok" id="checkbok" required>
+                <label for="checkbok">
+                    
+                        Aceptas las <b>condiciones de usu</b> y la <b>Politica de privacidad</b> de Tuenti y que Tuenti te envie
+                        comunicaciones. Incluso por via electronica. Lee un resumen en el <b>Decálogo de las condiniones de uso</b>.
+                    
+                </label>
+
+            </div>
+
+            <p class="center-content">
+                <input type="submit" class="btn btn-green" value="¡Disfruta de Tuenti!">
+            </p>
+    
+        
+    </body>
+</html>

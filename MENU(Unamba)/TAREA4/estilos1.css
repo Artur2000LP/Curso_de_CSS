@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:aqua;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 960px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 30px;
+}
+header{
+    height: 20px;
+    width: 960px;
+    background-color: olive;
+    float: nome;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 20px;
+    color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+nav{
+    height: 50px;
+    width: 960px;
+    background-color: rgb(238, 138, 45);
+    float: nome;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+section{
+    height: 300px;
+    width: 960px;
+    background-color: blue;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+article{
+    height: 150px;
+    width: 800px;
+    background-color: rgb(51, 187, 221);
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+aside{
+    height: 150px;
+    width: 800px;
+    background-color: rgb(14, 51, 173);
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.barraisq{
+    height: 300px;
+    width: 860px;
+    background-color: limegreen;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 40px;
+    width: 960px;
+    background-color: rgb(5, 5, 5);
+    position: absolute;
+    color: rgb(228, 217, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.divisor{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+section div p{
+    background-color:  limegreen;
+}

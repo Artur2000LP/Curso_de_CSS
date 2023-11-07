@@ -1,0 +1,81 @@
+.container {
+	background: #999;
+	/* border: 1px solid #000; */
+  min-width: 400px;
+	border: 1px solid #000;
+}
+p {
+
+	text-align: center;
+	color: #fff;
+}
+.header {
+	background: #FF8633;
+	height: 10vh;
+	border: 1px solid #000;
+  display: flex; /*lo estamos centrando el texto*/
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.article {
+	background: #21709a;
+	display: flex;
+
+}
+
+.article-div {
+	background: #33B8FF;
+	border: 1px solid #000;
+	/* width: 100%; */
+	flex-grow: 1;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+
+}
+
+.bar_section-container{
+	background: #1c3f26;
+	display: flex;
+	height: 50vh;
+
+}
+.bar_left , .bar_right {
+	background: #386946;
+  flex-grow: 1; /*le estamos dando para que ocupe la primera parte del espacio*/
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+.section {
+ flex-grow: 3; /*para que ocupe el triple del espacio*/
+ display: flex;
+ flex-direction: column;
+}
+.section-div{
+	background: #094372;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+	flex-grow: 1;
+}
+.bar_section {
+	/* border: 1px solid #000; */
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.footer {
+	background: #444;
+	height: 10vh;
+	border: 1px solid #000;
+  display: flex; /*lo estamos centrando el texto*/
+  justify-content: center;
+  align-items: center;
+}

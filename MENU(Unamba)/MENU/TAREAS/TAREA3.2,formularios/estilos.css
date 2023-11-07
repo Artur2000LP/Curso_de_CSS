@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+    background-color:rgb(0, 119, 255);
+    font-size: 20px;
+    box-sizing: border-box;
+}
+form{
+    background-color: white;
+    border-radius: 3px;
+    /*--color: #999;*/
+    font-size: 0.8em;
+    padding: 30px;
+    
+    margin: 0 auto;
+    width: 250px;
+}
+input, textarea{
+    border: 0;
+    outline: none;
+    /*width: 280px;*/
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+
+    
+}
+
+.field:focus{
+    border-color:rgb(0, 174, 255);
+}
+
+.center-content{
+    text-align: center;
+}
+form p{
+    font-size: 14px;
+    
+}

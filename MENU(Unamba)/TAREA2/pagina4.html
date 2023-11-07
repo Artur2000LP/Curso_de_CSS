@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XHTML</title>
+    <style>
+        body{
+        background: #3498db;
+        }
+    </style>
+</head>
+   
+<body bgcolor="#17202A" marginwidth="250px">
+    <table>
+        <tr bgcolor="white">
+            <th width="1920"><font color="blue" size="5" face="arial">
+                    <center><h1> Selecciones y lineas generales de un documento HTML5</h1></center></font>
+                </th>
+            </tr>
+    </table>
+    <br/><br/>          
+        
+    <table border="0">
+        <tr>
+            
+        </tr>
+        <tr>
+            <td align="justify">XHTML ha sido diseñado para extender HTML y permitir la compatibilidad con nuevos formatos 
+                de datos como videos, imágenes o lenguajes de scripting. Dado que HTML siempre se basó en SGML 
+                y, por lo tanto, era relativamente complejo, se encontró que un lenguaje meta de marcado limitado, 
+                como XML, era adecuado para definir la estructura básica y las posibilidades sintácticas del XHTML. <br>
+                Las especificaciones de XHTML 1.0 fueron publicadas por el W3C en 2002. A finales de 2009 se interrumpió 
+                el trabajo sobre la versión 2.0 porque el Grupo de Trabajo de Tecnología de Aplicación de Hipertexto Web 
+                (WHATWG) estaba trabajando en HTML5 al mismo tiempo, y este último fue el que al final prevaleció.</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p><font size="4" color="#48C9B0" face="arial"><b>Características</b></font></p>
+                <p align="justify">
+                XHTML se utiliza para marcar contenido como texto, imágenes y enlaces en forma de hipervínculos 
+                para crear una cierta estructura que puede ser mostrada por los navegadores. Los documentos pueden ser 
+                estructurados con XHTML para hacerlos legibles para un analizador. El analizador interpreta los elementos 
+                de marcado especificados en las definiciones del lenguaje XHTML y reproduce el contenido de estos elementos 
+                de una manera específica.<br>
+                En última instancia, el usuario ve lo que contienen estos elementos y no la forma en que se anotan o estructuran 
+                los elementos. Este último se llama código fuente XHTML y puede ser editado con diferentes editores de texto, por 
+                ejemplo, con un editor WYSIWYG. La notación separa el contenido y el diseño. El contenido está encerrado por los 
+                elementos. La forma en que se muestra este contenido está determinada por los elementos y sólo la muestra el 
+                navegador.</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><font size="4" color="#48C9B0" face="arial"><b>Las principales ventajas del XHTML sobre el HTML son:</font></fon></p></b>
+                <ul align="justify">
+                    <li>Se pueden incorporar elementos de distintos espacios de nombres XML (como MathML y Scalable Vector Graphics).</li>
+                    <li>Un navegador no necesita implementar heurísticas para detectar qué quiso poner el autor, por lo que el parser puede ser mucho más sencillo.</li>
+                    <li>Como es XML se pueden utilizar fácilmente herramientas creadas para procesamiento de documentos XML genéricos (editores, XSLT, etc.).</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br/><br/>
+        
+    <table bgcolor="#D6EAF8">
+        <tr><th align="left"><font size="4" color="#48C9B0" face="arial"><b>Diferencia entre XHML y HTML</b></font></th></tr>
+        <tr>
+            <td>
+                <p>La siguiente lista muestra algunas reglas de XHTML 1.0 que lo diferencian de HTML 4.01. Muchas de estas diferencias vienen con el cambio de ser una aplicación SGML a ser una aplicación del más estricto XML:</p>
+                <ul>
+                    <li>Los elementos vacíos deben cerrarse siempre:
+                        <ul>
+                            <li>Incorrecto: < br ></li>
+                            <li>Correcto: "< /br > o < br/> o < br />"</li>
+                        </ul>
+                    </li>
+                    <li>Los elementos no vacíos también deben cerrarse siempre:
+                        <ul>
+                            <li>Incorrecto: < p>Primer párrafo< p>Segundo párrafo</li>
+                            <li>Correcto: < p>Primer párrafo< /p>< p>Segundo párrafo< /p></li>
+                        </ul>
+                    </li>
+                    <li>Los elementos anidados deben tener un correcto orden de apertura/cierre (el que se abre último, debe cerrarse primero).
+                        <ul>
+                            <li>Incorrecto: < em>< strong>Texto< /em>< /strong></li>
+                            <li>Correcto: < em>< strong>Texto< /strong>< /em></li>
+                        </ul>
+                    </li>
+                    <li>Los valores de los atributos deben siempre ir encerrados entre comillas (simples o dobles).
+                        <ul>
+                            <li>Incorrecto: < td rowspan=3></li>
+                            <li>Correcto: < td rowspan="3"></li>
+                        </ul>
+                    </li>
+                    <li>Los nombres de elementos y atributos deben ir en minúsculas.
+                        <ul>
+                            <li>Incorrecto: < A HREF="http://www.domname.com">Domname< /A></li>
+                            <li>Correcto: < a href="http://www.domname.com">Domname< /a></li>
+                        </ul>
+                    </li>
+                    <li>No está permitida la minimización de atributos (se usa el nombre del atributo como valor).
+                        <ul>
+                            <li>Incorrecto: < textarea readonly>Solo-lectura< /textarea></li>
+                            <li>Correcto: < textarea readonly="readonly">Solo-lectura< /textarea></li>
+                        </ul>
+                    </li>
+                    <li>Los atributos desaprobados en HTML 4.01 no forman parte de XHTML.
+                        <ul>
+                            <li>Incorrecto: < font color="#0000FF">Blue text< /font></li>
+                            <li>Correcto: < span style="color: #0000FF;">Blue text< /span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr align="center">
+            <td >
+                <p><font size="4" color="#48C9B0" face="arial"><b>Más información</b></font></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JRyLLOlG9vY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </td>
+        </tr>
+        <tr>
+            <th align="left"><font size="4" color="#48C9B0" face="arial"><b><br/>Referencias</b></font></th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="https://es.ryte.com/wiki/XHTML">Ryte Wiki XHTML</a></li>
+                    <li><a href="https://www.w3schools.com/html/html_xhtml.asp">HTML frente a XHTML</li>
+                    <li><a href="https://uniwebsidad.com/libros/xhtml">Introducción a XHTML</a></li>
+                    <li><a href="https://www.adictosaltrabajo.com/2007/03/01/xhtml/">Especificaciones y ejemplos de XHTML</a></li>
+                    <li><a href="https://techterms.com/definition/xhtml">Definición XHTML</a></li>
+                    <li><a href="https://www.techopedia.com/definition/1889/extensible-hypertext-markup-language-xhtml">Lenguaje de marcado de hipertexto extensible (XHTML)</a></li>
+                    <li><a href="https://www.javatpoint.com/what-is-xhtml">¿Qué es XHTML?</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br/>
+        
+    <center>
+    <table bgcolor="#F9E79F" border="2">
+            <tr>
+                <td><a href="file:///D:/2022-I/Desarrollo de Software II/TRABAJOS/1 Web/Tercero.html">&nbsp;Regresar&nbsp;</a></td>
+                <td><a href="file:///D:/2022-I/Desarrollo de Software II/TRABAJOS/1 Web/Index.html">&nbsp;Indice&nbsp;</a></td>
+                <td><a href="file:///D:/2022-I/Desarrollo de Software II/TRABAJOS/1 Web/Html5.html">&nbsp;Siguiente&nbsp;</a></td>
+            </tr>
+    </table></center><br/>
+
+    <table>
+        <tr>
+            <th width="1920">
+            <font size="5" align="left" color="#D6EAF8" face="arial">Comentarios</font>
+            </th>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+            <td>
+            <div id="fb-root"></div>
+            <script 
+                async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="AZNtNumG">
+            </script>
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="1"></div>
+            </td>
+        </tr>
+        
+    </table>
+        <br/>
+</body>
+
+</html>

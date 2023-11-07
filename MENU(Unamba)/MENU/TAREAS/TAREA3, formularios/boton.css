@@ -1,0 +1,23 @@
+.btn{
+    border-radius: 1px;
+    display:inline-flex;
+    padding: 3px 4px;
+    text-decoration: none;
+    text-shadow: 0px 0 rgba(red, rgb(0, 68, 128), blue, alpha);
+    box-shadow: 0 1px 1px rgba(red, rgb(0, 102, 128), blue, alpha);
+}
+.btn-green{
+    color:white;
+    background-color:rgb(0, 145, 255);
+}
+.btn-green:hover{
+    background-color: blue;
+
+}
+.btn-green:active{
+    background-color: aqua;
+}
+.radio{
+    border: 1px;
+    
+}

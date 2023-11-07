@@ -1,0 +1,120 @@
+.menu{
+    background-color: rgb(247, 139, 52);
+    color: floralwhite;
+    text-align: center;
+    padding-block: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+
+.arts{
+    display:inline-flex;
+    width: 100%;
+}
+.art1{
+    
+    background-color: rgb(25, 167, 211);
+    text-align: center;
+    padding-block: 20px;
+    width: 340px;
+    color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.art2{
+    color: floralwhite;
+    background-color: rgb(25, 167, 211);
+    text-align: center;
+    padding-block: 20px;
+    width: 340px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.art3{
+    color: floralwhite;
+    background-color: rgb(25, 167, 211);
+    text-align: center;
+    padding-block: 20px;
+    width: 340px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.art4{
+    color: floralwhite;
+    background-color: rgb(25, 167, 211);
+    text-align: center;
+    padding-block: 20px;
+    width: 340px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.s{
+    display: inline-flex;
+    width: 100%;
+}
+.barra_isquierda{
+    background-color: seagreen;
+    width: 340px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    text-align: center;
+    color: blanchedalmond;
+    padding-top: 10%;
+}
+.barra_derecha{
+    background-color: seagreen;
+    width: 340px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    text-align: center;
+    color: floralwhite;
+    padding-top: 10%;
+    size: 20px;
+}
+.sec1{
+    background-color: blue;
+    text-align: center;
+    color: cornsilk;
+    padding-block: 20px;
+    width: 780px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.sec2{
+    background-color: blue;
+    text-align: center;
+    color: cornsilk;
+    padding-block: 20px;
+    width: 780px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.sec3{
+    background-color: blue;
+    text-align: center;
+    color: cornsilk;
+    padding-block: 20px;
+    width: 780px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+}
+.pie{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-block: 20px;
+}
+.r{
+    margin-left: 30px;
+    margin-right: 30px;
+}

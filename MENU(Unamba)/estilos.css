@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   /* background-color: black;*/
+   
+}
+h1
+{
+    text-align: center;
+    background-color: rgb(0, 72, 255);
+    color: white;
+    padding: 20px;
+}
+nav ul
+{
+    background-color: rgb(43, 165, 226);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul a
+{
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+nav li
+{
+    display: inline-flex;
+}
+nav a
+{
+    text-decoration: none;
+    color: rgb(0, 255, 115);
+    padding: 10px;
+    width: 100px;
+}
+nav li a:hover
+{
+    background-color: white;
+    color: black;
+}
+.contenido
+{
+    display: flex;
+   /* margin: 20px;*/
+}
+.articulo
+{
+    width: 80%;
+    /*opacity: 50%;*/
+}
+.seccion
+{
+    display: flex;
+    align-items: center;
+    padding: 135px;
+    background-image: url(imgenesdelCodigo/istockphoto-656453072-612x612.jpg) /*url("html.jpg")*/  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario
+{
+    align-items: center;
+    background-color: cornflowerblue;
+    background-size: auto;
+    text-align: center;
+}
+/*
+footer
+{
+    width: 100%;
+    height: 40%;
+}*/
+/*
+footer p
+{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color:black;
+    background-color: rgb(0, 89, 255);
+    /*background-image: url(img/descarga.jfif);*/
+    /*background-repeat: no-repeat;
+}*/
+/*
+p{
+    text-align:justify;
+    text-indent: 50%;
+    color: gold;
+    text-decoration:line-through;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: none;
+    line-height: 100%;
+}*/
+
+body div .TRABAJO li a p{
+    text-align:justify;
+    color:black;
+    background-color: aqua;
+}
+
+form{
+    padding: 40px;
+    margin: 20px;
+    margin-top: 50%;
+    background-color: rgb(0, 140, 255);
+    background-position: center;
+    text-align:center;
+    align-items: center;
+
+}
+.iconos{
+    padding: 20px;
+    background-color: rgba(13, 22, 45, 0.771);
+    color: white;
+    word-spacing: 12px;;
+}

@@ -1,0 +1,29 @@
+
+h1 {
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font:'alpha';
+}
+
+form p b {
+    color:black;
+    font-size: 20px;
+}
+form p{
+    color:darkgrey;
+}
+form div{
+      
+    padding: 100 0;
+    border-bottom: 1px solid #ccc;
+}
+
+div label  b{
+    color:rgb(0, 145, 255);
+    font-size: 12px;
+}
+div label {
+    font-size: 12px;
+}
