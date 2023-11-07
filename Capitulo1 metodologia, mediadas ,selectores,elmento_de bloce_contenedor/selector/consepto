@@ -1,0 +1,9 @@
+____CSS selectores____ 
+
+- Universal ( * )
+- de tipo - son los que seleccionamos por elemento ( ejemplo  p, b, button )
+- clases ( .name )
+- ID ( #name )
+- por Atributo [rancio="sisi"]
+- desendente (h2 p . . . )
+- pseudo-clases - cuando hay una accion (  h2:hover , h2::::before, etc )

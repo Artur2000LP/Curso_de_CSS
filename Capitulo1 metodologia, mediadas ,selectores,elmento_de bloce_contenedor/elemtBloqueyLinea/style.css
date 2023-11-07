@@ -1,0 +1,10 @@
+*{
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
+/*usu de display cambia el comportamiendo de cajas; como todos de los h2 de comportan en bloke lo cambiamos a liena  */
+h2{
+    display: inline; /*'inline elemento en liana ', para que se comporten en linea no en bloke el balor por defecto de h2 es en display:block */
+    /* display: block; *//* en bloke*/
+    
+}

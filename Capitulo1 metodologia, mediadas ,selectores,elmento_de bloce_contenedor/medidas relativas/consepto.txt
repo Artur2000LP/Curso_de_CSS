@@ -1,0 +1,24 @@
+.contact-from{
+    font-size: 15px;
+}
+
+.contact-from__h2{
+    font-size: 50px; /* pixeles*/
+    font-size: 50%; /* porsentaje*/
+    font-size: 50cm; /* centimetros */
+    font-size: 50mm; /* milimetros*/
+    font-size: 50pt; /* por puntos */
+    font-size: 50pc; /* */
+
+    /* medidas relativas */
+    font-size: 50em; /*por defecto 1 em es 16 px mayor mente utilizado*/
+    font-size: 50rem; /*Tamaño de la letra del elemento raíz. */
+    font-size: 50lh; /* Altura de la línea del elemento.*/
+    width: 50vw; /*es el 50% de mi pantalla 1vw=1%de pantalla este es el largo de la pantalla*/ /* 1% del ancho de la ventana gráfica.*/ 
+    height: 50vh;  /*es el 50% de mi pantalla 1vw=1%de pantalla este es el ancho de la pantalla*/ /* 1% de la altura de la ventana gráfica. */
+    
+    font-size: 50em; /* 1em = al valor que le estemos dando a su padre ejemplo .contact-from{
+        font-size: 15px;
+    },  que seria 15px ahora que le pusimos un valor como 50em = 50*15 = 750px
+      */
+}

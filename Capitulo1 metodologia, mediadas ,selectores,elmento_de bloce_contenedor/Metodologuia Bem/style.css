@@ -1,0 +1,9 @@
+* {
+	font-family: sans-serif;
+	/* padding: 0;
+	margin: 0; */
+}
+/*  */
+.contact-from__input--active{  /* :first-child seleciona al primer input */
+	color: red;
+}

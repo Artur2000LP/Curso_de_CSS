@@ -1,0 +1,20 @@
+/*  */
+*{ /* selector universal */
+    color:#222;
+}
+p { /*selector por tipo  */
+    color:brown;
+}
+
+.clash2{  /* selector por clase  */
+    color: aqua;
+}
+#element{ /* selector por id  */
+    color: chartreuse;
+}
+[rancio="sisi"]{
+    color:blue;
+}
+h2:hover{
+    color: rgb(255, 0, 89);
+}
