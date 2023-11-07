@@ -1,0 +1,49 @@
+
+
+.container {
+    padding: 20px 5px;
+    background: #86f;
+}
+
+.caja {
+    background: #026;
+    height: 100px;
+    width: 100px;
+    transition-property: left, background; /*nos mustra la trancicion de color */
+    transition-duration: 3s, 4s; /*mos muestra la trancicion de tiempo en 1 segundo lo que pasa */
+    /*transition-delay: 3s;*//*lo que hacer es no mestrar la transicion al instante si no pasando un tiempo despues, en este cajo tardara tres segundos en mostrarmos el cambio  */
+    margin: 30px;
+
+   /* background: inherit; *//*lo ereda el color de la caja del padre */
+    /* border: 1px solid #000; */
+    position: relative;
+    left: 0;
+}
+.container:hover > .caja {
+    left: 80%;
+    background: #fff;
+}
+/* .caja:hover {
+    background: lightgreen;
+    left: 80%;
+} */
+.caja:first-child {
+    transition-timing-function: ease;
+}
+.caja:nth-child(2) {
+    transition-timing-function: ease-in;
+}
+.caja:nth-child(3) {
+    transition-timing-function: ease-out;
+}
+.caja:nth-child(4) {
+    transition-timing-function: ease-in-out;
+}
+.caja:nth-child(5) {
+    transition-timing-function: linear;
+}
+.caja:nth-child(6) {
+    transition-timing-function: linear;
+}
+
+

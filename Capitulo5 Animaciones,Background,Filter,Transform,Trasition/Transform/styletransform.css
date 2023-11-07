@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px 5px;
+    background: #86f;
+}
+
+.caja {
+    background: #026;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    display: flex;
+    color:#fff;
+    transition: transform 1s;
+    /*translate(x,y);*/
+    /*transform: translate(50px,100px);*/ /*estamoso transformando trasladando */
+    /*tambien tiene scaleX() y scaleY() y abrebiada es scale(); */
+    transform: scale(1,1); /*el scale por defecto es 1 si damos 2 es el doble de grande, osea transforma por tamaño*/
+    /*para generar formas hay paginas en google que nos agudan 
+    como buscando "clip path generator" https://bennettfeely.com/clippy/ y copiar el codigo de una linea */
+    /* clip-path: polygon(5% 99%, 53% 0, 92% 97%, 49% 48%); */
+    clip-path: circle(50% at 50% 50%);
+
+
+
+}
+.caja:hover {
+    transform: skew(30deg); /*lo cambiamos su forma rotando 30 grados */
+}
+
+b {
+    margin: auto;
+    transform: skew(-30deg) /*para que el texto se quede conde esta le damos lo mismo pero con signo opusto*/
+}
+
+
+
+
+

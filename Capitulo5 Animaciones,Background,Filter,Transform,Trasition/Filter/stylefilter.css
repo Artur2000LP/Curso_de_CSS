@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+     padding: 50px;
+}
+.container {
+    width: 50%;
+    height: 50%;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*es hacer que la imagen se ajuste al contenedor de manera que cubra completamente el contenedor sin distorsionar la imagen.*/
+}
+div {
+    /*filter: blur(5px); *//*lo estamos desenfocando */
+    /*filter: brightness(3); *//*este es una escala de brillo*/
+    filter: contrast(1.3); /*da el contraste */
+    filter: drop-shadow(10px 10px 5px #000); /*da una sombra al contenedor*/
+    /*filter: brightness(4) contrast(6);*/ /*de forma resimida tambien se puede poner */
+
+}
+.img {
+    filter: grayscale(2); /*escala de colores*/
+    filter: hue-rotate(9deg); /*se invierte su gama de colores, o lo rotamos su gama de colores*/
+    filter: invert(100%); /*invierte sus colores segun a su porsentaje*/
+    filter: opacity(0.6);/*la opasidad del imagen */
+    filter: saturate(300px); /*se satura el imagen a su color mas fuerte */
+    filter: sepia(1); /*se pone a sepia cuanto mas es el valor */
+
+}
+
+

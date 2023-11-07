@@ -1,0 +1,10 @@
+__ otras propiedades, funciones y selectores curiosos de curiosos
+
+    Direction: ltr | rtl | initial | inherit;
+    letter spacing
+    scroll-behavior
+    user-selected
+    text-shadow
+
+    --- attr() ---
+    SELECTORES: 

@@ -1,0 +1,14 @@
+__ Background__
+    background: es una propiedad abrebiada
+    background-color: color;
+    background-image: url();
+    background-size: x, y, auto, cover, contain
+    background-position: left - top - bottom - right - ' center ++ left - top - bottom - right - center' 
+    background-attachment: scroll | fixed | inherit
+    background-clip: border-box | padding-box | content-box
+    background-origin - origen del a foto (valores de arriba )
+    
+
+
+
+    

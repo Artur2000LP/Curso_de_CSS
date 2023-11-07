@@ -1,0 +1,14 @@
+__ FILTER ___
+filter:
+    none
+    blur(px)
+    brightness(0-1)
+    contrast(number or %)
+    drop-shadow(medidas)
+    grayscale(%)
+    hue-rotate(deg)
+    invert(%)
+    opacity(%)
+    saturate(%)
+    sepia(%)
+    url("filter.svg#filter-id");

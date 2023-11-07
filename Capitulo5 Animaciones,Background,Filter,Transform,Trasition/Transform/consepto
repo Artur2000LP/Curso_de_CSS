@@ -1,0 +1,12 @@
+__ Transform ___
+    transform: translateX(x) - translateY(y) translate(x - x,y) (si usamos porcentajes, son porcentajes relativos al elemento) - recomendado para animar
+    transform: scale(xy - x,y) - scaleX(x) - scaleY(y)
+    transform: rotate(angleUnit) - rotateX(angleUnit) - rotateZ(angleUnit) - rotate3D(angleUnit) || angleUnit = deg - grad -rad- turn
+    transform: skew(angleUnit)
+
+    https://www.w3schools.com/cssref/css3_pr_transform.php
+    
+
+
+
+

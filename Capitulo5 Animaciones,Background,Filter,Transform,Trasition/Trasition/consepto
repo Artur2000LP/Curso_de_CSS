@@ -1,0 +1,13 @@
+__ Trancition __
+TRANSITION:
+
+    transition-property: property/ies - all - none
+    transition-duration: duration/s
+    transition-delay: delay/s
+    transition-timing-function: linear | ease | ease-in | ease-out |ease-in-out | step-start | step-end | steps | steps(int,start|end) | initial | inherit;
+    transition: abrebiada ;
+
+
+
+
+

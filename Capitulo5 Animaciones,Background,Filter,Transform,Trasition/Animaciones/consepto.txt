@@ -1,0 +1,15 @@
+___ Animacion ___
+@KeyFames - es la forma en que definiremos las animaciones
+
+    animation-name: name
+    animation-duration: duration
+    animation-delay: delay
+    animation-timing-function: (tansition values )
+    animation-iteration-count: namber
+    animation-fill-node: none | forwards | backwards | both | initial | inherit;
+    animation-direction: normal | reverse | alternate |alternate-reverse
+
+
+
+
+

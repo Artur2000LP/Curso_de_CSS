@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*para que la transicion de a sea las lenta se lo damos al padre*/ 
+    scroll-behavior: smooth; /*la velocidad de vajada sea mas suabe */
+}   
+a {
+    font-size: 30px;
+}
+
+.container {
+    padding: 30px;
+    background: #59f;
+    font-size: 40px;
+    direction: rtl; /*es como tex aling pero la diferencia es minima */
+    letter-spacing: 4px; /*para que las letras se separen entre ellas 4px */
+
+}
+#id_Content {
+    background: #991;
+    font-size: 40px;
+    /*como hacemos para que el usuario no selecione las letres con el codigo siguiente*/
+    user-select: none; /*no le deja seleccionar */
+
+}
+
+/*enlases parar el trabajo https://www.workana.com/es/jobs?country=PE&language=es*/

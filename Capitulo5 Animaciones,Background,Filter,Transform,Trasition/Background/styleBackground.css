@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.container {
+    padding: 20px;
+    background: #86f;
+    /* border: 10px solid #f00; */
+    /* width: 350px; */ /*sacamos para que el width: se ponga al 100% por defecto */
+    height: 200px;
+    margin: 40px ;
+    /*ponemos un imagen a un contenedro */
+    background-image: url(https://images6.alphacoders.com/133/1331137.png);
+    /*para que el imagen se adapte al contenedor se pone lo sigiente*/
+    background-size: cover; /*lo estamos adaptando el imajen al contenedor*/
+    background-size: 100%;
+    background-repeat: no-repeat; /*para que el imagen no se repita*/
+   /* background-clip: content-box; *//*desde donde eu muestra el imagen, osea el clip lo corta el imagen*/
+   /* background-origin: content-box; *//*se muestra del origen del vorder, y este lo crea el imagen a partir de hay */
+   /* background-position: left center; *//*lo mescla con las proopiedades como left, center, botton, etc..., ejemplo le decimos que de posisione derecha y arriba */
+    /*para que el imagen sea fijo y el dib sea como una ventana */
+    background-attachment: fixed; /*tiene mas propiedades */
+}
+
+div {
+    background: transparent;
+}

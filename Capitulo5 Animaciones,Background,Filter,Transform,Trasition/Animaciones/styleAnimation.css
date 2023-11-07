@@ -1,0 +1,53 @@
+
+.container {
+    padding: 20px 5px;
+    background: #86f;
+}
+
+.caja {
+    background: #026;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    position: relative;
+    animation-name: desplazarse;
+    animation-duration: 3s;
+    /*animation-iteration-count: 3;*/ /*cuantas veses que va reperit la animacion*/
+    animation-iteration-count: infinite; /*se repite la animacion infinitas veses */
+    animation-direction: alternate ; /*cambia la direccion*/
+    animation-fill-mode: both; /*cual sera el modo final eso es lo que define */
+    animation-delay: 1s;
+    /* animation-timing-function: ease-out;  */
+    animation-timing-function: cubic-bezier(0.17, 0.7, 0.58, 1); 
+}
+
+@keyframes desplazarse {
+    /* from {
+        left: 0;
+    }
+    to {
+        left: 80%;
+    } */
+    /*otra manera */
+    0% {
+        left: 0;
+        background: #000;
+    }
+    50% {
+        background: #7b4;
+    }
+    100% {
+        left: 80%;
+        background: #0f2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
